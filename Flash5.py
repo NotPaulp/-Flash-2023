@@ -1,0 +1,5 @@
+f=open('hh.txt','r')
+f=f.read()
+f=f.replace('A','г').replace('O','г').replace('C','с').replace('D','с').replace('F','с')
+f=f.replace('ссг','1').replace('с',' ').replace('г',' ').split()
+print(len(max(f,key=len)))
