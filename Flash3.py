@@ -13,4 +13,4 @@ for i in a:
 
     if a==1 and p==1:
         k+=1
-
+print(k)
