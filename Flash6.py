@@ -5,7 +5,7 @@ for a in range(1,10000):
         for y in range(0,13):
             m=int('2'+c[y]+'23'+c[x]+'5',15)
             n=int('67'+c[x]+'9'+c[y],13)
-            if (m+a)%n==0 and x!=y:
+            if (m+a)%n==0:
                 print(a)
                 l=True
                 break
